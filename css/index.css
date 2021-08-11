@@ -1,0 +1,107 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: white ;
+}
+:root{
+    --main-bg-color:#2874f0;
+}
+footer{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+header{
+    background-color: var(--main-bg-color);
+}
+nav{
+    display: flex;
+}
+#logo{
+    display: flex;
+    align-items: center;
+}
+#logo img{
+    padding: 0% 2vw;
+    width: 90px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0% 1vw;
+    font-size: 14px;
+}
+main{
+    min-height: calc(100vh - 12vh - 6vh);
+}
+#search{
+    display: flex;
+    align-items: center;
+}
+button{
+    margin: 0% 18px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+button:Hover{
+    font-weight: 900;
+}
+input{
+    width: 370px;
+    height: 25px;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 0% 8px;
+}
+header nav li a:hover{
+    font-weight: bold;
+}
+#img{
+    display: flex;
+    justify-content: center;
+
+}
+#img img{
+    margin-top: 8px;
+}
+.cards{
+    margin: 0% 10vw;
+    overflow-x:scroll;
+    scroll-snap-type: mandatory;
+}
+.cards img{
+    margin: 7px;
+}
+.img{
+    width: 180px;
+    margin-right:8px;
+
+}
+#name {
+    display: flex;
+}
+div .img img{
+    margin: 8px;
+}
+.cards{
+    margin-top: 10vh;
+}
+.cards img:hover{
+    height: 190px;
+}
